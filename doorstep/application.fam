@@ -1,0 +1,13 @@
+App(
+    appid="doorstep",
+    name="Doorstep",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="doorstep_app",
+    requires=["gui", "storage", "notification"],
+    stack_size=4 * 1024,
+    fap_category="GPIO",
+    fap_icon="doorstep_10px.png",
+    fap_file_assets="files",
+    fap_version="1.1",
+    fap_description="Tally camera-brand Wi-Fi radios passed on a walk (WiFi Dev Board + Marauder)",
+)
